@@ -1,0 +1,4 @@
+services:
+  events_display.event_service:
+    class: Drupal\events_display\EventService
+    arguments: ['@http_client', '@cache.default']
